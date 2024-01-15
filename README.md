@@ -33,15 +33,17 @@ ejecución del servidor de pruebas
 ```javascript
 python manage.py runserver
 ```
-
 Visita en tu navegador web: http://127.0.0.1:8000/
 
 ![Alt text](https://docs.wagtail.org/en/stable/_images/tutorial_1.png)
 
 ### Instalación en Docker:
-- docker build -t cms .
-- docker run -p 8000:8000 cms
-
+```javascript
+docker build -t cms .
+```
+```javascript
+docker run -p 8000:8000 cms
+```
 Visita en tu navegador web: http://127.0.0.1:8000/
 
 Credenciales de administración:

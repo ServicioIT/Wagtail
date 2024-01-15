@@ -1,13 +1,13 @@
 # Wagtail
 ## Sistema de gestión de contenidos para Django, enfocado en la flexibilidad y la experiencia del usuario.
 
-###Requisitos:
+### Requisitos:
 
 - Git command
 - Python > 3.9
 - Docker core (opcional)
 
-###Instalación:
+### Instalación:
 
 Clonación del repositorio
 ```javascript
@@ -38,7 +38,7 @@ Visita en tu navegador web: http://127.0.0.1:8000/
 
 ![Alt text](https://docs.wagtail.org/en/stable/_images/tutorial_1.png)
 
-###Instalación en Docker:
+### Instalación en Docker:
 - docker build -t cms .
 - docker run -p 8000:8000 cms
 

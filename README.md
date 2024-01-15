@@ -37,7 +37,10 @@ Visita en tu navegador web: http://127.0.0.1:8000/
 
 ![Alt text](https://docs.wagtail.org/en/stable/_images/tutorial_1.png)
 
-### Instalación en Docker:
+### Ejecutar en Docker:
+```javascript
+cd ~/Wagtail/cms/
+```
 ```javascript
 docker build -t cms .
 ```

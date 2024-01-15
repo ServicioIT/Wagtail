@@ -22,3 +22,5 @@ Credenciales de administración:
 usuario: admin
 
 contraseña: admin2024
+
+Este proyecto es un clone en español de: https://github.com/wagtail/wagtail

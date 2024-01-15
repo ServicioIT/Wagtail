@@ -17,6 +17,8 @@ Instalación:
 
 Visita en tu navegador web: http://127.0.0.1:8000/
 
+https://docs.wagtail.org/en/stable/_images/tutorial_1.png
+
 Instalación en Docker:
 - docker build -t cms .
 - docker run -p 8000:8000 cms

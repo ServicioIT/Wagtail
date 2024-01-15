@@ -8,15 +8,31 @@
 - Docker core (opcional)
 
 ###Instalación:
+
 Clonación del repositorio
 ```javascript
 git clone https://github.com/ServicioIT/Wagtail.git
 ```
-- cd Wagtail (directorio donde se descargo el Git)
-- python3 -m venv venv (Creacion de entorono virtual)
-- source venv/bin/activate (activacion del entorno virtual (venv))
-- (venv)pip install -r requirements.txt (instalacion de requerimientos en el entorno virtual)
-- (venv)python manage.py runserver (Ejecución del servidor de pruebas)
+ve al directorio donde se descargo el Git
+```javascript
+cd Wagtail
+```
+Creacion de entorono virtual
+```javascript
+python3 -m venv venv
+```
+activacion del entorno virtual (venv)
+```javascript
+source venv/bin/activate
+```
+instalacion de requerimientos en el entorno virtual
+```javascript
+pip install -r requirements.txt
+```
+ejecución del servidor de pruebas
+```javascript
+python manage.py runserver
+```
 
 Visita en tu navegador web: http://127.0.0.1:8000/
 

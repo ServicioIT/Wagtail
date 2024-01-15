@@ -5,6 +5,7 @@ Requisitos:
 
 - Git command
 - Python > 3.9
+- Docker core (opcional)
 
 Instalación:
 - git clone https://github.com/ServicioIT/Wagtail.git (Clonación del repositorio)
@@ -16,8 +17,15 @@ Instalación:
 
 Visita en tu navegador web: http://127.0.0.1:8000/
 
+Instalación en Docker:
+- docker build -t cms .
+- docker run -p 8000:8000 cms
+
+Visita en tu navegador web: http://127.0.0.1:8000/
+
 Credenciales de administración:
 - usuario: admin
 - contraseña: admin2024
 
 Este proyecto es un demo en español de: https://github.com/wagtail/wagtail
+

@@ -37,7 +37,7 @@ python3 manage.py runserver
 ```
 Visita en tu navegador web: http://127.0.0.1:8000/
 
-![Alt text](https://docs.wagtail.org/en/stable/_images/tutorial_1.png)
+![Alt text](https://cdn.hashnode.com/res/hashnode/image/upload/v1668768006851/MHnlHAWmd.png?auto=compress,format&format=webp)
 
 ### Ejecutar en Docker:
 ```javascript

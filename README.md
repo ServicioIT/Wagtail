@@ -1,10 +1,12 @@
 # Wagtail
 ## Sistema de gestión de contenidos para Django, enfocado en la flexibilidad y la experiencia del usuario.
 
-### Requisitos:
+### Requisitos iniciales:
 
-- Git command
-- Python > 3.9
+- Git command (sudo apt install git-all)
+- Python > 3.8 < 3.11 (https://www.python.org/downloads/)
+- Pip > (python -m ensurepip --upgrade)
+- VirtualENV (pip3 install virtualenv)
 - Docker core (opcional)
 
 ### Instalación:

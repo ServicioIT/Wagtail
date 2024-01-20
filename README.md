@@ -27,11 +27,11 @@ source venv/bin/activate
 ```
 instalacion de requerimientos en el entorno virtual
 ```javascript
-pip install -r cms/requirements.txt
+pip install -r requirements/development.txt 
 ```
 ejecución del servidor de pruebas
 ```javascript
-python3 cms/manage.py runserver
+python3 manage.py runserver
 ```
 Visita en tu navegador web: http://127.0.0.1:8000/
 

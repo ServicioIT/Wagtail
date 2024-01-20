@@ -46,16 +46,16 @@ ENV PORT 8000
 EXPOSE 8000
 
 # Add custom environment variables needed by Django or your settings file here:
-ENV DJANGO_SETTINGS_MODULE=bakerydemo.settings.production DJANGO_DEBUG=off
+ENV DJANGO_SETTINGS_MODULE=cms.settings.production DJANGO_DEBUG=off
 
 # Call collectstatic with dummy environment variables:
 RUN DATABASE_URL=postgres://none REDIS_URL=none python manage.py collectstatic --noinput
 
 # make sure static files are writable by uWSGI process
-RUN mkdir -p /code/bakerydemo/media/images && mkdir -p /code/bakerydemo/media/original_images && chown -R 1000:2000 /code/bakerydemo/media
+RUN mkdir -p /code/cms/media/images && mkdir -p /code/cms/media/original_images && chown -R 1000:2000 /code/cms/media
 
 # mark the destination for images as a volume
-VOLUME ["/code/bakerydemo/media/images/"]
+VOLUME ["/code/wagtail/media/images/"]
 
 # start uWSGI, using a wrapper script to allow us to easily add more commands to container startup:
 ENTRYPOINT ["/code/docker-entrypoint.sh"]
